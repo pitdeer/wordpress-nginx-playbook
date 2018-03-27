@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Piotr Sarna
   description: Basic Wordpress playbook based on LEMP stack
@@ -32,7 +33,7 @@ galaxy_info:
   #
   # platforms is a list of platforms, and each platform has a name and a list of versions.
   #
-  # platforms:
+  platforms:
     - name: Ubuntu
       versions:
       - all
