@@ -1,0 +1,13 @@
+---
+- name: Install mysql
+  apt: name={{ item }} state=present
+  with_items:
+   - mysql-server
+   - libmysqlclient-dev
+
+- name: Install the Python MySQLB module
+  pip: name=MySQL-python
+
+
+  notify:
+  - restart mysql

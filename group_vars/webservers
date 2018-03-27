@@ -1,0 +1,14 @@
+---
+#nginx
+server_hostname: <hostname of your server>
+
+#mysql
+
+mysql_port: 3306
+
+#wordpress
+wp_version: 4.9.4
+wp_db_name: wordpress 
+wp_db_user: wordpress
+wp_db_password: super-safe-8digit-non-dictionary-admin_admin123-password
+

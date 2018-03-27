@@ -1,0 +1,11 @@
+---
+- name: Install Wordpress with LEMP and BIND
+  hosts: webservers
+  remote_user: root
+
+  roles:
+  - common
+  - mysql
+  - nginx
+  - php-fpm
+  - wordpress
